@@ -2,6 +2,12 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  text-align: right;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 a {
@@ -11,4 +17,139 @@ a {
 img,
 video {
   display: block;
+}
+
+.tout {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.container,
+.container2,
+.container3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+  align-self: stretch;
+  color: #000;
+}
+
+.bar {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.titre {
+  width: 100px;
+}
+
+.chiffres1 {
+  display: flex;
+  width: 195px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+  color: white;
+}
+
+.chiffres2 {
+  display: flex;
+  width: 105px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+}
+
+.chiffres3 {
+  display: flex;
+  width: 153px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+}
+
+.chiffres4 {
+  display: flex;
+  width: 147px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+}
+
+.chiffres5 {
+  display: flex;
+  width: 123px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  background: #ffcc2f;
+}
+
+.chiffres6 {
+  display: flex;
+  width: 177px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0px 10px 10px 0px;
+  background: #37d3d2;
+}
+
+.chiffres1,
+.chiffres2,
+.chiffres3,
+.chiffres4,
+.chiffres5,
+.chiffres6 {
+  color: #fff;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.carre {
+  width: 16px;
+  height: 16px;
+  background: #ffcc2f;
+}
+
+.carre2 {
+  width: 16px;
+  height: 16px;
+  background: #37d3d2;
+}
+
+.legendmobile {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.legendDesktop {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.legend {
+  display: flex;
+  width: 422px;
+  padding: 20px 0px 20px 120px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  color: #000;
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 900;
 }
